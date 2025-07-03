@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <title>Formulario</title>
 </head>
 
 <body>
     <center>
-            <!--Nombre-->
+        <!--Nombre-->
         <form action="" method="post">
-            <h1>Mi primer fomulario</h1>
+            <h1>Ingresar</h1>
+            <h2>¿No tienes una cuenta?</h2>
+            <h3>Crea una.</h3>
             <div class="Nombre">
                 <label for="Nombre">Nombre</label>
-                <input type="" placeholder="Ingrese su Nombre">
+                <input type="" placeholder="Ingrese su nombre">
             </div>
             <br>
             <!--Apellido-->
@@ -29,10 +31,10 @@
                 <input type="number" placeholder="Ingrese su edad">
             </div>
             <br>
-            <!--Contraseña-->
-            <div class="Contraseña">
-                <label for="Contraseña">Clave</label>
-                <input type="password" placeholder="Ingrese su contraseña">
+            <!--Correo-->
+            <div class="Correo">
+                <label for="Correo">Correo</label>
+                <input type="email" placeholder="Ingrese su correo">
             </div>
             <br>
             <!--sexo-->
@@ -44,6 +46,30 @@
                 <br>
                 <label for="Femenino">Femenino</label>
                 <input type="radio" value="Femenino">
+            </div>
+
+            <br>
+            <!--Telefono-->
+            <div class="Telefono">
+                <label for="Telefono">Teléfono</label>
+                <input type="tel" placeholder="Ingrese su numero de teléfono">
+            </div>
+            <br>
+            <!--Fecha de nacimiento-->
+            <div class="Fecha">
+                <label for="Fecha">Fecha de nacimiento</label>
+                <input type="date" placeholder="Ingrese su fecha de nacimiento">
+            </div>
+            <br>
+            <!--Dirección-->
+            <div class="Direccion">
+                <label for="Direccion">Dirección</label>
+                <input type="text" placeholder="Ingrese su dirección">
+            </div>
+            <br>
+            <!--Boton de enviar-->  
+            <div class="Enviar">
+                <input type="submit" value="Enviar">
             </div>
         </form>
     </center>
