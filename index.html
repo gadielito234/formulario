@@ -8,71 +8,70 @@
 </head>
 
 <body>
-    <center>
         <!--Nombre-->
         <form action="" method="post">
             <h1>Ingresar</h1>
             <h2>¿No tienes una cuenta?</h2>
-            <h3>Crea una.</h3>
+            <h3>Crea una completa la información siguiente.</h3>
             <div class="Nombre">
-                <label for="Nombre">Nombre</label>
+                <label for="Nombre">Nombre:</label>
                 <input type="" placeholder="Ingrese su nombre">
             </div>
             <br>
             <!--Apellido-->
             <div class="Apellido">
-                <label for="apellido">Apellido</label>
+                <label for="apellido">Apellido:</label>
                 <input type="" placeholder="Ingrese su apellido">
             </div>
             <br>
             <!--Edad-->
             <div class="Edad">
-                <label for="Edad">Edad</label>
+                <label for="Edad">Edad:</label>
                 <input type="number" placeholder="Ingrese su edad">
             </div>
             <br>
             <!--Correo-->
             <div class="Correo">
-                <label for="Correo">Correo</label>
+                <label for="Correo">E-mail:</label>
                 <input type="email" placeholder="Ingrese su correo">
             </div>
-            <br>
-            <!--sexo-->
-            <div class="Sexo">
-                <p><b>Ingrese su sexo</b></p>
-                <br>
-                <label for="Masculino">Masculino</label>
-                <input type="radio" value="masculino">
-                <br>
-                <label for="Femenino">Femenino</label>
-                <input type="radio" value="Femenino">
+
+            <p><b>Sexo:</b>
+                <input type="radio" id="indiferente" name="sexo" value="Indiferente">
+                <label for="indiferente">Indiferente</label>
+
+                <input type="radio" id="masculino" name="sexo" value="Masculino">
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" id="femenino" name="sexo" value="Femenino">
+                <label for="femenino">Femenino</label>
+            </p>
             </div>
 
             <br>
             <!--Telefono-->
             <div class="Telefono">
-                <label for="Telefono">Teléfono</label>
+                <label for="Telefono">Teléfono:</label>
                 <input type="tel" placeholder="Ingrese su numero de teléfono">
             </div>
             <br>
             <!--Fecha de nacimiento-->
             <div class="Fecha">
-                <label for="Fecha">Fecha de nacimiento</label>
+                <label for="Fecha">Fecha de nacimiento:</label>
                 <input type="date" placeholder="Ingrese su fecha de nacimiento">
             </div>
             <br>
             <!--Dirección-->
             <div class="Direccion">
-                <label for="Direccion">Dirección</label>
+                <label for="Direccion">Dirección:</label>
                 <input type="text" placeholder="Ingrese su dirección">
             </div>
             <br>
-            <!--Boton de enviar-->  
+            <!--Boton de enviar-->
             <div class="Enviar">
                 <input type="submit" value="Enviar">
             </div>
         </form>
-    </center>
 
 </body>
 
